@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 5rem;
+}
+
+/**navbar**/
+.navbar {
+    display: flex;
+}
+
+.main-logo {
+    margin-left: 50px;
+} 
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding-left: 650px;
+    color: hsl(236, 13%, 42%);
+}
+
+.navbar li {
+    padding: 0px 20px;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+.logo {
+    background-image: url('assets/images/image-web-3-desktop.jpg');
+    background-size: cover;
+    width: 750px;
+    height: 300px;
+    margin: 50px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;;
+}
+
+/**section 1**/
+.main-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    max-height: 350px;
+    margin-left: 2rem;
+    margin-top: 50px;
+}
+
+.main-blog {
+    grid-column: 2 span;
+    grid-row: 1 span;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-title {
+    font-size: 3rem;
+    width: 300px;
+    font-weight: 800;
+    padding: 0;
+}
+
+.blog-content {
+    width: 350px;
+    line-height: 1.5;
+    padding-left: 45px;
+}
+
+.blog-content p {
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+.blog-content button {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.blog-content button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+
+/**news**/
+.news {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    display: grid;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.news-title {
+    color: hsl(35, 77%, 62%);
+    margin: 45px 30px;
+    font-size: 40px;
+}
+
+.news-content h3 {
+    color: white;
+    margin-left: 35px;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+}
+
+.news-content p {
+    color: hsl(236, 13%, 42%);
+    font-size: 17px;
+    margin: 15px 33px;   
+    margin-bottom: 35px;
+}
+
+.news-border {
+    border-top: 0.0000000000001px solid hsl(236, 13%, 42%);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.news-content h3:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+
+.news-content p:hover {
+    cursor: text;
+    color: hsl(235, 47%, 35%);
+    font-size: 19px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*info*/
+.info {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 2rem;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 150px;
+}
+
+.info-text {
+    margin: 10px 20px;
+}
+
+.info-title {
+    color: hsl(233, 8%, 79%);
+}
+
+.info-subtitle {
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info-para {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+/*info hover*/
+.info-subtitle:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+.main-info img:hover {
+    height: 170px;
+}
+
+.info-para:hover {
+    cursor: pointer;
+    color: hsl(235, 44%, 37%);
+}
+
+.info-title:hover {
+    cursor: pointer;
+    color: hsl(233, 8%, 79%);
+}
